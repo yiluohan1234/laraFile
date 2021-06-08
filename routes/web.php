@@ -13,5 +13,6 @@
 */
 
 Route::get('/', function () {
-    return redirect('/admin');
+    // return redirect('/admin');
+    return redirect(config('admin.route.prefix'));
 });

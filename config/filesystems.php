@@ -60,7 +60,7 @@ return [
         ],
         'media-manager' => [
             'driver' => 'local',
-            'root' => storage_path('app/../../../laravel-admin'),
+            'root' => storage_path('app/../../../laraFile'),
             'url' => env('APP_URL').'/storage',
             'visibility' => 'public',
         ],
